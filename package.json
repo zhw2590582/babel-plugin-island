@@ -4,14 +4,20 @@
   "description": "A island plugin for Babel",
   "main": "src/index.js",
   "scripts": {
-    "eslint": "eslint ./src",
+    "lint": "eslint ./src",
     "test": "jest",
     "release": "npm publish"
   },
   "license": "MIT",
   "repository": "zhw2590582/babel-plugin-island",
-  "authors": ["Harvey Zack <laozhaochaguan@hotmail.com>"],
-  "keywords": ["island", "plugin", "webpack"],
+  "authors": [
+    "Harvey Zack <laozhaochaguan@hotmail.com>"
+  ],
+  "keywords": [
+    "island",
+    "plugin",
+    "webpack"
+  ],
   "bugs": {
     "url": "https://github.com/zhw2590582/babel-plugin-island/issues"
   },
@@ -20,7 +26,8 @@
     "extends": "eslint-config-zhw2590582"
   },
   "devDependencies": {
-    "babel-core": "^6.26.0",
+    "@babel/cli": "^7.0.0-beta.36",
+    "@babel/core": "^7.0.0-beta.36",
     "babel-jest": "^22.0.4",
     "babel-preset-env": "^1.6.1",
     "chalk": "^2.3.0",
