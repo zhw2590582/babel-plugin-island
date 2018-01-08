@@ -1,4 +1,4 @@
-# babel-plugin-island
+# babel-plugin-island [![Build Status](https://www.travis-ci.org/zhw2590582/island-webpack-plugin.svg?branch=master)](https://www.travis-ci.org/zhw2590582/island-webpack-plugin)
 
 island plugin for Babel (目前测试用)
 
