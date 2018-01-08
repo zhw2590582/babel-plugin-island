@@ -1,6 +1,6 @@
 {
   "name": "babel-plugin-island",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A island plugin for Babel",
   "main": "src/index.js",
   "scripts": {
@@ -16,7 +16,7 @@
   "keywords": [
     "island",
     "plugin",
-    "webpack"
+    "babel"
   ],
   "bugs": {
     "url": "https://github.com/zhw2590582/babel-plugin-island/issues"
