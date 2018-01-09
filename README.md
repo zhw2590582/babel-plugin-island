@@ -1,4 +1,4 @@
-# babel-plugin-island [![Build Status](https://www.travis-ci.org/zhw2590582/island-webpack-plugin.svg?branch=master)](https://www.travis-ci.org/zhw2590582/island-webpack-plugin)
+# babel-plugin-island [![Build Status](https://www.travis-ci.org/zhw2590582/island-webpack-plugin.svg?branch=master)](https://www.travis-ci.org/zhw2590582/island-webpack-plugin) [![Coverage Status](https://coveralls.io/repos/github/zhw2590582/babel-plugin-island/badge.svg?branch=master)](https://coveralls.io/github/zhw2590582/babel-plugin-island?branch=master)
 
 > A island plugin for Babel (目前测试用于文件头部输出作者信息)
 
