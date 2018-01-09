@@ -23,7 +23,7 @@ test('Insert author information and outputs JavaScript', done => {
     });
 
     const bundle = out.code;
-    fs.appendFileSync(path.join(__dirname, 'bundle.js'), bundle);
+    fs.writeFileSync(path.join(__dirname, 'bundle.js'), bundle);
     expect(bundle.includes('Harvey Zack')).toBeTruthy();
     expect(bundle.includes('717995589@qq.com')).toBeTruthy();
     expect(bundle.includes('http://www.zhw-island.com')).toBeTruthy();
